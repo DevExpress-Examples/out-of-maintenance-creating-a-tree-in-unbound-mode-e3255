@@ -1,0 +1,41 @@
+﻿<Window x:Class="DXTreeList_UnboundMode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:local="clr-namespace:DXTreeList_UnboundMode">
+    <Grid>
+        <dxg:TreeListControl Name="treeListControl1">
+            <dxg:TreeListControl.Columns>
+                <dxg:TreeListColumn FieldName="Name" />
+                <dxg:TreeListColumn FieldName="Executor" />
+                <dxg:TreeListColumn FieldName="State" />
+            </dxg:TreeListControl.Columns>
+            <dxg:TreeListControl.View>
+                <dxg:TreeListView Name="treeListView1" AutoWidth="True">
+                    <dxg:TreeListView.Nodes>
+                    <dxg:TreeListNode>
+                        <dxg:TreeListNode.Content>
+                            <local:ProjectObject Name="Project: Betaron" Executor="Destiny Tabisola" />
+                        </dxg:TreeListNode.Content>
+                        <dxg:TreeListNode.Nodes>
+                            <dxg:TreeListNode>
+                                <dxg:TreeListNode.Content>
+                                    <local:StageObject Name="Development" Executor="Kairra Hogg" />
+                                </dxg:TreeListNode.Content>
+                                <dxg:TreeListNode.Nodes>
+                                    <dxg:TreeListNode>
+                                        <dxg:TreeListNode.Content>
+                                            <local:TaskObject Name="Coding" Executor="Sabato Durley" State="Not Started" />
+                                        </dxg:TreeListNode.Content>
+                                    </dxg:TreeListNode>
+                                </dxg:TreeListNode.Nodes>
+                            </dxg:TreeListNode>
+                        </dxg:TreeListNode.Nodes>
+                    </dxg:TreeListNode>
+                    </dxg:TreeListView.Nodes>
+                </dxg:TreeListView>
+            </dxg:TreeListControl.View>
+        </dxg:TreeListControl>
+    </Grid>
+</Window>
