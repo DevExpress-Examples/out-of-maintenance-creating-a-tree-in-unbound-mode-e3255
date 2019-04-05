@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/DXTreeList_UnboundMode/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXTreeList_UnboundMode/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/DXTreeList_UnboundMode/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/DXTreeList_UnboundMode/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/DXTreeList_UnboundMode/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXTreeList_UnboundMode/MainWindow.xaml.vb))
 <!-- default file list end -->
 # Creating a Tree in Unbound Mode
 
