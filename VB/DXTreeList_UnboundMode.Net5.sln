@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 16
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DXTreeList_UnboundMode", "DXTreeList_UnboundMode\DXTreeList_UnboundMode.Net5.vbproj", "{E748B9C5-944B-4787-836A-E5322850C471}"
 EndProject
