@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXTreeList_UnboundMode", "DXTreeList_UnboundMode\DXTreeList_UnboundMode.csproj", "{E748B9C5-944B-4787-836A-E5322850C471}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXTreeList_UnboundMode", "DXTreeList_UnboundMode\DXTreeList_UnboundMode.Net5.csproj", "{E748B9C5-944B-4787-836A-E5322850C471}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
